@@ -5,6 +5,10 @@ import User from '../models/User';
 import Appointment from '../models/Appointment';
 
 class ScheduleController {
+  /**
+   * Appointment/Schedule Provider
+   */
+
   async index(req, res) {
     const checkUserProvider = await User.findOne({
       where: {
