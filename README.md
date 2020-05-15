@@ -1,1 +1,1 @@
-# goBarber
+# style-barber
