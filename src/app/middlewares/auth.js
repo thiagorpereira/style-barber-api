@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import { promisify } from 'util'; // transform callback to use await
+import { promisify } from 'util'; // lib padrão do Node - transform callback to use await
 
 import authConfig from '../../config/auth';
 
